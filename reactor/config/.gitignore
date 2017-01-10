@@ -3,3 +3,6 @@
 *.json
 privkey.pem
 pubkey.pem
+
+!default.yaml
+!default.yml
