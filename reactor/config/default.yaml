@@ -1,0 +1,46 @@
+firebase:
+    database:
+    token:
+
+winston:
+    level:
+
+stripe:
+    sk:
+    pk:
+
+sendgrid:
+    api_key:
+
+email:
+    to:
+    bcc:
+    from:
+    reply:
+    subject: '*DEV*'
+
+# Override in development.yaml to disable a reactor for debugging
+disable:
+    analytics:
+    cme:
+    subscription:
+    stripe:
+    answers:
+    assignments:
+
+reactors:
+    numworkers: 2
+    answers:
+        numworkers: 5
+    demons:
+        numworkers: 3
+    importer:
+        numworkers: 2
+    users:
+        numworkers: 5
+    assignments:
+        numworkers: 5
+    cmes:
+        numworkers: 2
+    qotd:
+        numworkers: 1
